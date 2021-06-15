@@ -33,4 +33,14 @@ class News extends CI_Controller {
             $this->load->view('news/view', $data);
             $this->load->view('templates/footer');
         }
+        public function vanillaget()
+            {
+                    $this->load->view('news/vanillaget');
+            }
+
+            public function fetchget()
+            {
+                    $this->load->view('news/fetchget');
+            }
+
 }
